@@ -63,7 +63,7 @@ function ProductDetails(props) {
 
         <Row className="align-items-center">
           <Col md={4}>
-            <img src={product.image} className="img-fluid" />
+            <img src={product.image} className="img-fluid p-5" />
           </Col>
           <Col md={{ span: 7, offset: 1 }} className="">
             <h4>{product.title}</h4>
@@ -108,7 +108,7 @@ function ProductDetails(props) {
               <Card className="h-100 mx-2" key={item.id}>
                 <div className="product_img">
                   <Link to={`/product/${item.id}`}>
-                    <Card.Img variant="top " src={item.image} />
+                    <Card.Img variant="top p-3" src={item.image} />
                   </Link>
                 </div>
 
