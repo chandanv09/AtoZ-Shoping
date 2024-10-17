@@ -34,7 +34,7 @@ function App() {
         <Route path="/product/:id" element={<ProductDetails />}/>
         <Route path="/search/:term" element={<SearchItem/>}/>
         <Route path="/cart" element={<Cart/>}/>
-        <Route path="/menclothing/" element={<MenCloting Items={data} setData={setData}/>}></Route>
+        <Route path="/menclothing/" element={<MenCloting />}></Route>
         <Route path="/Jwellery" element={<Jwellery/>}/>
         <Route path="/eletronices" element={<Electronices/>}/>
         <Route path="/womenclothing" element={<WomenClothing/>}/>
