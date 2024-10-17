@@ -42,7 +42,7 @@ export const Items = [
     {
        "id":5,
        "title":"John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-       "price":5999,
+       "price":499,
        "description":"From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
        "category":"jewelery",
        "image":"https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
@@ -53,7 +53,7 @@ export const Items = [
     {
        "id":6,
        "title":"Solid Gold Petite Micropave ",
-       "price":2499,
+       "price":999,
        "description":"Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
        "category":"jewelery",
        "image":"https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
@@ -64,7 +64,7 @@ export const Items = [
     {
        "id":7,
        "title":"White Gold Plated Princess",
-       "price":1999,
+       "price":1499,
        "description":"Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
        "category":"jewelery",
        "image":"https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
@@ -75,7 +75,7 @@ export const Items = [
     {
        "id":8,
        "title":"Pierced Owl Rose Gold Plated Stainless Steel Double",
-       "price":4999,
+       "price":1999,
        "description":"Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
        "category":"jewelery",
        "image":"https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
@@ -246,7 +246,7 @@ export const Items = [
    {
       "id":25,
       "title":"John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-      "price":5999,
+      "price":1999,
       "description":"From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
       "category":"jewelery",
       "image":"https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
@@ -257,7 +257,7 @@ export const Items = [
    {
       "id":26,
       "title":"Solid Gold Petite Micropave ",
-      "price":2499,
+      "price":999,
       "description":"Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
       "category":"jewelery",
       "image":"https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
@@ -268,7 +268,7 @@ export const Items = [
    {
       "id":27,
       "title":"White Gold Plated Princess",
-      "price":1999,
+      "price":1499,
       "description":"Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
       "category":"jewelery",
       "image":"https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
@@ -279,7 +279,7 @@ export const Items = [
    {
       "id":28,
       "title":"Pierced Owl Rose Gold Plated Stainless Steel Double",
-      "price":4999,
+      "price":2499,
       "description":"Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
       "category":"jewelery",
       "image":"https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
@@ -361,7 +361,7 @@ export const Items = [
    {
       "id":36,
       "title":"Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-      "price":1099,
+      "price":499,
       "description":"100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
       "category":"women-clothing",
       "image":"https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
@@ -371,7 +371,7 @@ export const Items = [
    {
       "id":37,
       "title":"Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-      "price":799,
+      "price":399,
       "description":"Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
       "category":"women-clothing",
       "image":"https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
