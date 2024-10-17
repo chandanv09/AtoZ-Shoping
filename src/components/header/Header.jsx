@@ -29,12 +29,12 @@ function Header() {
         <div className="header_top pt-2 pb-3">
           <Container>
             <Row>
-              <Col md={3}>
+              <Col md={3} xs={12} className="mb-3 mb-md-0 mb-lg-0">
                 <Link to={"/"}>
                   <img src={Logo} width="220" />
                 </Link>
               </Col>
-              <Col md={6}>
+              <Col md={6} xs={9}>
                 <Form className="mt-2" onSubmit={handleSubmit}>
                   <Form.Control
                     type="text"
@@ -46,7 +46,7 @@ function Header() {
               </Col>
 
               <Col
-                md={3}
+                md={3} xs={3}
                 className="d-flex align-items-center justify-content-end cart"
               >
                 <Link to={"/cart"}>

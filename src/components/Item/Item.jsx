@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Item(props) {
   return (
-    <Col md={3} className="my-2">
+    <Col md={3} sm={6} className="my-2">
       <Card className="h-100 " title={props.title}>
         <div className="product_img">
           <Link to={`/product/${props.id}`}>

@@ -11,7 +11,7 @@ function Navigation(props) {
   return (
     <Navbar expand="lg" className="border-top primary-bg navbar">
       <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 justify-content-between">
             <Nav.Link>

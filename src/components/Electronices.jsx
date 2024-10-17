@@ -44,7 +44,7 @@ function Electronices() {
 
         <Row>
         <Col md={2} className="pr-0">
-            <div className="card filter my-4 p-3 h-100">
+            <div className="card filter my-4 p-3 vh-100 ">
               <h6>Filter</h6>
               <ul>
                 {[500, 1000, 1500, 2000].map((price) => (
