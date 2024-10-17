@@ -10,7 +10,7 @@ function Item(props) {
       <Card className="h-100 " title={props.title}>
         <div className="product_img">
           <Link to={`/product/${props.id}`}>
-            <Card.Img variant="top p-3" src={props.url} />
+            <Card.Img variant="top " src={props.url} />
           </Link>
         </div>
 
@@ -25,7 +25,7 @@ function Item(props) {
           </div>
           <Card.Text>
             <div>
-              <p>{props.discription}</p>
+              {props.discription}
             </div>
           </Card.Text>
         </Card.Body>
