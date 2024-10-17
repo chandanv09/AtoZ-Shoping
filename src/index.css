@@ -1,3 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body ,ul ,li ,a {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
 body{
   font-size: 15px;
 }
@@ -15,4 +26,12 @@ body{
 button.btn{
   font-size: 15px;
   font-weight: 500;
+}
+.filter{
+  background: #fff;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .06);
+}
+.filter ul li{
+  padding: 3px 0;
+  font-size: 14px;
 }

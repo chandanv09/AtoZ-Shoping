@@ -20,20 +20,21 @@ import Banner from "./components/banner/Banner";
 
 function App() {
   const [data , setData] = useState([...Items])
-  const [cart , setCart] = useState([])
+ 
+
   
   return (
     <>
-      <Header cart={cart}/>
-      <Navigation setData={setData} data={data}/>
+      <Header />
+      <Navigation />
       
       <Banner/>
       <Routes>
         <Route path="/" element={ <Itemlist Items={data}/>}/>
-        <Route path="/product/:id" element={<ProductDetails cart={cart} setCart={setCart}/>}/>
+        <Route path="/product/:id" element={<ProductDetails />}/>
         <Route path="/search/:term" element={<SearchItem/>}/>
-        <Route path="/cart" element={<Cart cart={cart} setCart={setCart}/>}/>
-        <Route path="/menclothing/" element={<MenCloting/>}></Route>
+        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/menclothing/" element={<MenCloting Items={data} setData={setData}/>}></Route>
         <Route path="/Jwellery" element={<Jwellery/>}/>
         <Route path="/eletronices" element={<Electronices/>}/>
         <Route path="/womenclothing" element={<WomenClothing/>}/>

@@ -1,22 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Cart.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import { DataContext } from "../../context/Context";
 function Cart(props) {
-  console.log(props.cart);
+  
+  const {cart , setCart , deleteItem} = useContext(DataContext)
 
-  const deleteItem = (id) => {
-    props.setCart(props.cart.filter((item) => item.id !== id));
-  };
+
   return (
     <>
       <Container className="my-3">
         <Row>
           <Col md={{ span: 8, offset: 2 }}>
-            {props.cart.length !== 0 ? (
-              props.cart.map((item) => (
+            {cart.length !== 0 ? (
+              cart.map((item) => (
                 <Card className="my-3">
                   <Row className="align-items-center">
                     <Col md={4}>

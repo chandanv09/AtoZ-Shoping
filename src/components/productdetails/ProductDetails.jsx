@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Items } from "../Data";
 import { Badge, Button, Col, Collapse, Container, Row } from "react-bootstrap";
@@ -8,11 +8,12 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { DataContext } from "../../context/Context";
 function ProductDetails(props) {
   const { id } = useParams();
   const [product, setProduct] = useState({});
   const [relativeProduct, setRelativeProduct] = useState([]);
-
+  const { cart, setCart, addToCart } = useContext(DataContext);
   useEffect(() => {
     const filterProduct = Items.filter((item) => item.id == id);
     setProduct(filterProduct[0]);
@@ -23,27 +24,6 @@ function ProductDetails(props) {
 
     setRelativeProduct(sameProduct);
   }, [id, product.category]);
-
-  const addToCart = (id, title, image, price, description) => {
-    const obj = {
-      id,
-      title,
-      image,
-      price,
-      description,
-    };
-    props.setCart([...props.cart, obj]);
-    toast.success("Product add successfully", {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "colored",
-    });
-  };
 
   const responsive = {
     superLargeDesktop: {

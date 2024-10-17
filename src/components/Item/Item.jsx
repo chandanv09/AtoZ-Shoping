@@ -15,18 +15,16 @@ function Item(props) {
         </div>
 
         <Card.Body className="d-flex flex-column">
-          <Card.Title >{props.title}</Card.Title>
+          <Card.Title>{props.title}</Card.Title>
+          <div>
+            <Badge bg="success my-2"> {props.rating}</Badge>
+            <h5>
+              <i className="bi bi-currency-rupee"></i>
+              {props.price}
+            </h5>
+          </div>
           <Card.Text>
-            <h6></h6>
-            <div className="d-flex align-items-center my-2">
-              <Badge bg="success "> {props.rating}</Badge>
-            </div>
             <div>
-              <h5>
-                <i className="bi bi-currency-rupee"></i>
-                {props.price}
-              </h5>
-
               <p>{props.discription}</p>
             </div>
           </Card.Text>

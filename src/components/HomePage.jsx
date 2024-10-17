@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Pagination() {
+function HomePage() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Pagination() {
   )
 }
 
-export default Pagination
+export default HomePage

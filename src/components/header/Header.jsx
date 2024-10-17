@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 
 import {
   Badge,
@@ -11,9 +11,13 @@ import {
 } from "react-bootstrap";
 import Logo from "../../assets/images/logo.png";
 import { Link, useNavigate } from "react-router-dom";
+import { DataContext } from "../../context/Context";
 function Header(props) {
   const [searchText, setSearchText] = useState("");
   const navigate = useNavigate();
+  const {cart , setCart} = useContext(DataContext)
+
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     navigate(`/search/${searchText}`);
@@ -48,7 +52,7 @@ function Header(props) {
                 <Link to={"/cart"}>
                   My Cart <i className="bi bi-cart3"></i>{" "}
                   <sup>
-                    <Badge bg="danger">{props.cart.length}</Badge>
+                    <Badge bg="danger">{cart.length}</Badge>
                   </sup>
                 </Link>
               </Col>
