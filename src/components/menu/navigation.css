@@ -1,0 +1,12 @@
+.navbar{
+    background: #b53434;
+    padding: 2px 0;
+    border-bottom: #ffffff solid 1px;
+
+}
+.nav-link a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    
+}

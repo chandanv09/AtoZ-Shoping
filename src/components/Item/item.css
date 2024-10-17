@@ -1,0 +1,19 @@
+.product_img{
+    padding:15px 25px;
+    height: 220px;
+    overflow: hidden;
+}
+.product_img img{
+    height: 100%;
+}
+.card .card-title{
+    font-size: 15px;
+}
+.card-text p{
+    font-size: 14px;
+    max-height: 45px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
