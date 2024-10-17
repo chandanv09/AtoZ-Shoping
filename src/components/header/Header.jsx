@@ -34,7 +34,7 @@ function Header() {
                   <img src={Logo} width="220" />
                 </Link>
               </Col>
-              <Col md={6} xs={9}>
+              <Col md={6} xs={8}>
                 <Form className="mt-2" onSubmit={handleSubmit}>
                   <Form.Control
                     type="text"
@@ -46,7 +46,7 @@ function Header() {
               </Col>
 
               <Col
-                md={3} xs={3}
+                md={3} xs={4}
                 className="d-flex align-items-center justify-content-end cart"
               >
                 <Link to={"/cart"}>
