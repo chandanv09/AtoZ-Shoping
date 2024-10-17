@@ -12,7 +12,7 @@ import {
 import Logo from "../../assets/images/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { DataContext } from "../../context/Context";
-function Header(props) {
+function Header() {
   const [searchText, setSearchText] = useState("");
   const navigate = useNavigate();
   const {cart , setCart} = useContext(DataContext)

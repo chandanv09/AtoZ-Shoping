@@ -13,7 +13,7 @@ function SearchItem() {
 
   return (
     <>
-    {serachData.length == 0 ? (<div className='text-center my-5'><h4>No Items Found</h4></div>) : <Itemlist Items={serachData}/> }
+    {!serachData.length ? (<div className='text-center my-5'><h4>No Items Found</h4></div>) : <Itemlist Items={serachData}/> }
     
     </>
   )
