@@ -45,11 +45,11 @@ function Jwellery() {
         </Row>
 
         <Row>
-          <Col md={2} className="pr-0">
+          <Col md={{span: 2 ,  order: 0}} xs={{span:12 , order:1}} className="pr-0">
             <div className="card filter my-4 p-3 vh-100 ">
               <h6>Filter</h6>
               <ul>
-                {[500, 1000, 1500, 2000].map((price) => (
+                {[500, 1000, 1500, 2000].map(price => (
                   <li key={price}>
                     <Form.Check
                       onChange={() => togglePriceFilter(price)}
@@ -60,10 +60,17 @@ function Jwellery() {
                   </li>
                 ))}
               </ul>
-            </div>
-          </Col>
 
-          <Col md={10}>
+
+            </div>
+
+            <div>
+           
+            </div>
+
+            
+          </Col>
+          <Col md={{span: 10 , order:1}} xs={{span:12 , order:0}}>
             <Itemlist Items={filteredData} />
           </Col>
         </Row>
